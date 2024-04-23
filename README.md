@@ -1,16 +1,18 @@
-# weather_app_dnt
+# Weather App
 
-A new Flutter project.
+This Flutter application displays weather information using the BLoC architecture and adheres to the principles of Domain-Driven Design (DDD), implementing dependency inversion and injection.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- View current weather information based on user location
+- Search for weather information by city name (todo)
+- Implement local caching of the last fetched weather information (todo)
+- Display last weather info from the local database in case of any network error (todo)
 
-A few resources to get you started if this is your first Flutter project:
+## Installation
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Clone the repository:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+git clone https://github.com/your-username/weather-app.git
+
